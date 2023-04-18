@@ -13,11 +13,11 @@ public class Population {
      * The total population of the continent/region/country.
      * */
     public Long wholeLocationPopulation;
-}
-/*
- * The total population of the continent/region/country living in cities (including a %).
- * */
-public double wholeLocationPopulationInCitiesPercentage;
+
+    /*
+     * The total population of the continent/region/country living in cities (including a %).
+     * */
+    public double wholeLocationPopulationInCitiesPercentage;
     /*
      * The total population of the continent/region/country not living in cities (including a %).
      * */
@@ -34,11 +34,11 @@ public double wholeLocationPopulationInCitiesPercentage;
     /**
      * Instantiates a new Population.
      *
-     * @param locationName                       the location name
-     * @param wholeLocationPopulation            the whole location population
+     * @param locationName            the location name
+     * @param wholeLocationPopulation the whole location population
      */
     public Population(String locationName, Long wholeLocationPopulation) {
         this.locationName = locationName;
         this.wholeLocationPopulation = wholeLocationPopulation;
     }
-
+}
