@@ -7,12 +7,12 @@ public class Population {
     /*
      * The name of the continent/region/country.
      * */
-    private String locationName;
+    public String locationName;
 
     /*
      * The total population of the continent/region/country.
      * */
-    private Long wholeLocationPopulation;
+    public Long wholeLocationPopulation;
 }
 /*
  * The total population of the continent/region/country living in cities (including a %).
