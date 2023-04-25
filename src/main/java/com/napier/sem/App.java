@@ -2,7 +2,7 @@ package com.napier.sem;
 
 import java.sql.*;
 
-public class App
+public class App {
     public static void main(String[] args)
     {
         try
@@ -34,10 +34,10 @@ public class App
                 // Exit for loop
                 break;
             }
-            catch (SQLException sqle)
+            catch (SQLException sql)
             {
-                System.out.println("Failed to connect to database attempt " + Integer.toString(i));
-                System.out.println(sqle.getMessage());
+                System.out.println("Failed to connect to database attempt " + (i));
+                System.out.println(sql.getMessage());
             }
             catch (InterruptedException ie)
             {
